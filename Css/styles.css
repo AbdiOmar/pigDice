@@ -8,7 +8,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   font-family: 'Montserrat';
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-7X2Hjr2uzGaVclUwauZnu4WYf50qAMnykkQ9vCpSAMfa1tz0tA");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEtAMNOFYXVmHmXVwjAB3Qsww-J-4tQq7bwhDkN2f-lEVuxStSg");
   background-repeat:  no-repeat;
   background-size: cover;
 
@@ -45,6 +45,7 @@ aside {
   display : block;
   background : #060606;
   text-align: center;
+  color:  white;
 }
 
 section {
@@ -63,7 +64,7 @@ input[type="button"] {
 }
 
 .button {
-    background-color: #4CAF50;
+    background-color: blue;
     border: none;
     color: white;
     padding: 5px 8px;
@@ -145,6 +146,9 @@ ul {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background:  #060606;
   text-align: center;
+  color: white;
+  border-right: 0.25rem solid;
+
 }
