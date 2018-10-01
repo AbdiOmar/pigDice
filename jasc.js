@@ -1,5 +1,5 @@
 var players = [];
-var numPlayers = 0;
+var numPlayers = 0; 
 var gameStarted = false;
 /**
  * Create a new player
