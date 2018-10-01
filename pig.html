@@ -1,0 +1,89 @@
+<html>
+   <head>
+     <title>The Dice Game Pig</title>
+     <link rel="stylesheet" href="Css/styles.css">
+   </head>
+   <body>
+     <script src="jasc.js"></script>
+     <header>
+       
+       <h1>Pig Dice Game</h1>
+     </header>
+
+     <main>
+       <aside>
+         <h3>Player Menu</h3>
+         <input id="txtNewPlayer" type="text" />
+         <button class="button" onclick="add()">Add</button>
+         <p/>
+         <button class="button" onclick="clearPlayers()">Clear All Players</button>
+         <p/>
+         <button class="button" onclick="beginGame()">Begin Game</button>
+       </aside>
+       <section>
+         <ul>
+           <li class="player " id="player1" style="display:none">
+             <div id="playerName1" class="playerName">Dean</div>
+             <div class="score">
+               <span class="lblTotal">Total:</span>
+               <div id="totalScore">0</div>
+             </div>
+             <div id="playerControls1">
+               <div id="currentScore1" class="currentScore">0</div>
+               <p/>
+               <button class="button playButton" onclick="roll(1)">Roll</button>
+               <button class="button playButton" onclick="pass(1)">Pass</button>
+             </div>
+           </li>
+           <li class="player" id="player2" style="display:none">
+             <div id="playerName2" class="playerName">Alexis</div>
+             <div class="score">
+               <span class="lblTotal">Total:</span>
+               <div id="totalScore">0</div>
+             </div>
+             <div  id="playerControls2">
+               <div id="currentScore2" class="currentScore">0</div>
+               <p/>
+               <button class="button playButton" onclick="roll(2)">Roll</button>
+               <button class="button playButton" onclick="pass(2)">Pass</button>
+             </div>
+           </li>
+           <li class="player" id="player3" style="display:none">
+             <div id="playerName3" class="playerName">Brooke</div>
+             <div class="score">
+               <span class="lblTotal">Total:</span>
+               <div id="totalScore">0</div>
+             </div>
+             <div id="playerControls3">
+               <div id="currentScore3" class="currentScore">0</div>
+               <p/>
+               <button class="button playButton" onclick="roll(3)">Roll</button>
+               <button class="button playButton" onclick="pass(3)">Pass</button>
+             </div>
+           </li>
+           <li class="player" id="player4" style="display:none">
+             <div id="playerName4" class="playerName">Gavin</div>
+             <div class="score">
+               <span class="lblTotal">Total:</span>
+               <div id="totalScore">0</div>
+             </div>
+             <div id="playerControls4">
+               <div id="currentScore4" class="currentScore">0</div>
+               <p/>
+               <button class="button playButton" onclick="roll(4)">Roll</button>
+               <button class="button playButton" onclick="pass(4)">Pass</button>
+             </div>
+           </li>
+         </ul>
+         <div id="dice">&#x2681;</div>
+       <section>
+       </section
+     </main>
+     <audio id="diceShake">
+       <source src="http://www.gnubg.org/win32/wavs/roll.wav" type="audio/wav">
+     </audio>
+     <audio id="failShake">
+       <source src="https://freesound.org/people/deleted_user_877451/sounds/76376/download/76376__deleted-user-877451__game-over.wav" type="audio/wav">
+     </audio>
+   </body>
+</html>
