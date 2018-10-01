@@ -8,9 +8,10 @@ body {
   width: 1200px;
   margin: 0 auto;
   font-family: 'Montserrat';
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEtAMNOFYXVmHmXVwjAB3Qsww-J-4tQq7bwhDkN2f-lEVuxStSg");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHhWdcs9tUz0Pc5IiHxBPfrQjV9c5HiFMlF7OA51ifVO_Q2iPc9Q");
   background-repeat:  no-repeat;
   background-size: cover;
+  
 
 }
 
@@ -64,7 +65,7 @@ input[type="button"] {
 }
 
 .button {
-    background-color: blue;
+    background-color:#462E2E ;
     border: none;
     color: white;
     padding: 5px 8px;
